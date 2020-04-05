@@ -1,7 +1,7 @@
-package com.sergiomartinrubio.javadesignpatterns.abstractfactory.regular;
+package com.sergiomartinrubio.javadesignpatterns.creational.abstractfactory.regular;
 
-import com.sergiomartinrubio.javadesignpatterns.abstractfactory.Connection;
-import com.sergiomartinrubio.javadesignpatterns.abstractfactory.ConnectionAbstractFactory;
+import com.sergiomartinrubio.javadesignpatterns.creational.abstractfactory.Connection;
+import com.sergiomartinrubio.javadesignpatterns.creational.abstractfactory.ConnectionAbstractFactory;
 
 public class ConnectionFactory implements ConnectionAbstractFactory {
     @Override

@@ -1,22 +1,22 @@
 package com.sergiomartinrubio.javadesignpatterns.creational.singleton;
 
-public class LazyInitializationAndDoubleCheckLocking {
+public class LazyInitializationAndDoubleCheckLockingSingleton {
 
-    private static volatile LazyInitializationAndDoubleCheckLocking instance;
+    private static volatile LazyInitializationAndDoubleCheckLockingSingleton instance;
 
     private int value;
 
-    private LazyInitializationAndDoubleCheckLocking() {
+    private LazyInitializationAndDoubleCheckLockingSingleton() {
 
     }
 
-    public static LazyInitializationAndDoubleCheckLocking getInstance() {
+    public static LazyInitializationAndDoubleCheckLockingSingleton getInstance() {
         if (instance == null) { // 1st check
 
-            synchronized (LazyInitializationAndDoubleCheckLocking.class) {
+            synchronized (LazyInitializationAndDoubleCheckLockingSingleton.class) {
 
                 if (instance == null) { // 2nd check
-                    instance = new LazyInitializationAndDoubleCheckLocking();
+                    instance = new LazyInitializationAndDoubleCheckLockingSingleton();
                 }
             }
         }

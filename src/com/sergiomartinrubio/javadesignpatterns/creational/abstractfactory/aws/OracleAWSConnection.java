@@ -1,6 +1,6 @@
-package com.sergiomartinrubio.javadesignpatterns.abstractfactory.aws;
+package com.sergiomartinrubio.javadesignpatterns.creational.abstractfactory.aws;
 
-import com.sergiomartinrubio.javadesignpatterns.abstractfactory.Connection;
+import com.sergiomartinrubio.javadesignpatterns.creational.abstractfactory.Connection;
 
 public class OracleAWSConnection implements Connection {
     @Override

@@ -1,7 +1,7 @@
-package com.sergiomartinrubio.javadesignpatterns.abstractfactory;
+package com.sergiomartinrubio.javadesignpatterns.creational.abstractfactory;
 
-import com.sergiomartinrubio.javadesignpatterns.abstractfactory.aws.AWSConnectionFactory;
-import com.sergiomartinrubio.javadesignpatterns.abstractfactory.regular.ConnectionFactory;
+import com.sergiomartinrubio.javadesignpatterns.creational.abstractfactory.aws.AWSConnectionFactory;
+import com.sergiomartinrubio.javadesignpatterns.creational.abstractfactory.regular.ConnectionFactory;
 
 public class FactoryCreator {
     public static ConnectionAbstractFactory getConnectionFactory(boolean isAws) {

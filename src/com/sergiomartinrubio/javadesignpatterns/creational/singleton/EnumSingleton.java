@@ -1,4 +1,16 @@
 package com.sergiomartinrubio.javadesignpatterns.creational.singleton;
 
-public class EnumSingleton {
+enum EnumSingleton {
+
+    INSTANCE;
+
+    private int value;
+
+    public int getValue() {
+        return value;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
+    }
 }

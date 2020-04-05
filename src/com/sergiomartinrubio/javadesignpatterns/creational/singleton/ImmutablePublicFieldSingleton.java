@@ -1,12 +1,12 @@
 package com.sergiomartinrubio.javadesignpatterns.creational.singleton;
 
-public class SingletonWithImmutablePublicField {
+public class ImmutablePublicFieldSingleton {
 
-    public static final SingletonWithImmutablePublicField instance = new SingletonWithImmutablePublicField();
+    public static final ImmutablePublicFieldSingleton instance = new ImmutablePublicFieldSingleton();
 
     private int value;
 
-    private SingletonWithImmutablePublicField() {
+    private ImmutablePublicFieldSingleton() {
     }
 
     public void setValue(int value) {

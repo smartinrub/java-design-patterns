@@ -1,17 +1,17 @@
 package com.sergiomartinrubio.javadesignpatterns.creational.singleton;
 
-public class SingletonWithFactoryMethod {
+public class FactoryMethodSingleton {
 
 
-    private static SingletonWithFactoryMethod instance = new SingletonWithFactoryMethod();
+    private static FactoryMethodSingleton instance = new FactoryMethodSingleton();
 
     private int value;
 
-    private SingletonWithFactoryMethod() {
+    private FactoryMethodSingleton() {
 
     }
 
-    public static SingletonWithFactoryMethod getInstance(){
+    public static FactoryMethodSingleton getInstance(){
         return instance;
     }
 

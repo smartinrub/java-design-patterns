@@ -1,4 +1,4 @@
-package com.sergiomartinrubio.javadesignpatterns.factory;
+package com.sergiomartinrubio.javadesignpatterns.creational.factory;
 
 public class Client {
 
