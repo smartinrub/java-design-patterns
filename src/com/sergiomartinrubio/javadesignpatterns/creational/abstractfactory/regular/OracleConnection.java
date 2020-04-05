@@ -1,6 +1,6 @@
-package com.sergiomartinrubio.javadesignpatterns.abstractfactory;
+package com.sergiomartinrubio.javadesignpatterns.abstractfactory.regular;
 
-import com.sergiomartinrubio.javadesignpatterns.factory.Connection;
+import com.sergiomartinrubio.javadesignpatterns.abstractfactory.Connection;
 
 public class OracleConnection implements Connection {
     @Override
