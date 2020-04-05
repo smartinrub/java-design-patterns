@@ -5,7 +5,6 @@ import java.security.NoSuchAlgorithmException;
 public class Client {
 
     public static void main(String[] args) throws NoSuchAlgorithmException {
-
         Password password1 = new MD5Decorator(new PlainTextPassword());
         Password password2 = new SHA1Decorator(new PlainTextPassword());
         Password password3 = new BCryptDecorator(new PlainTextPassword());
