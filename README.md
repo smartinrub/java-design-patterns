@@ -18,4 +18,7 @@
 
 ### Behavioural
 
+- Observer
+- Command
+
 In progress...
