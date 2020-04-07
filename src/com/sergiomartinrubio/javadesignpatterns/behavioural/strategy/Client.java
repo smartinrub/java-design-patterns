@@ -26,7 +26,5 @@ public class Client {
         System.out.println("Do Multiplication Operation...");
         calculator = new CalculatorContext(new Multiplication());
         System.out.println(NUM1 + " * " + NUM2 + ": " + calculator.executeStrategy(NUM1, NUM2));
-
-
     }
 }
