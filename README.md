@@ -20,5 +20,4 @@
 
 - Observer
 - Command
-
-In progress...
+- Strategy
