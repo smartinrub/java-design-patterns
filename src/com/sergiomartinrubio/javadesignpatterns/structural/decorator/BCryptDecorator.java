@@ -1,6 +1,6 @@
 package com.sergiomartinrubio.javadesignpatterns.structural.decorator;
 
-//import org.mindrot.jbcrypt.BCrypt;
+import org.mindrot.jbcrypt.BCrypt;
 
 import java.security.NoSuchAlgorithmException;
 
@@ -12,7 +12,6 @@ public class BCryptDecorator extends HashDecorator {
 
     @Override
     public String getPassword(String value) throws NoSuchAlgorithmException {
-//        return super.getPassword(BCrypt.hashpw(value, BCrypt.gensalt()));
-        return null;
+        return super.getPassword(BCrypt.hashpw(value, BCrypt.gensalt()));
     }
 }
