@@ -1,7 +1,7 @@
 package com.sergiomartinrubio.javadesignpatterns.behavioural.visitor;
 
 public interface Visitor {
-    void visit(DishWasher car);
+    void visit(DishWasher dishWasher);
 
-    void visit(Computer motorcycle);
+    void visit(Computer computer);
 }
