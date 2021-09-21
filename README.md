@@ -21,3 +21,4 @@
 - Observer
 - Command
 - Strategy
+- Visitor
